@@ -1,0 +1,24 @@
+@import url(./components/app.css);
+@import url(./components/header.css);
+@import url(./components/eMailSubscribe.css);
+
+:root {
+  --white-100: #FFFFFF;
+  --white-200: #F5F5F5;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+input {
+  font-family: 'Manrope', sans-serif;
+}
+body {
+  background: var(--white-200);
+  font-family: 'Manrope', sans-serif;
+
+  width: 100%;
+  height: 100vh;
+}

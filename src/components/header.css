@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#headerList {
+  display: flex;
+  list-style: none;
+
+  font-weight: 600;
+  line-height: 1.2rem;
+  font-size: 1rem;
+
+  color: var(--white-100);
+}
+#headerList:last-child button {
+  font-weight: 800;
+  color: black;
+  border-style: none;
+  background: var(--white-200);
+  padding: .75rem 1.5rem;
+}
