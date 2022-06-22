@@ -14,17 +14,19 @@
 </head>
 <body>
   <div class="app">
-    <img src="./src/assets/background-gradient.svg" />
-    <img src="./src/assets/SALY-3D_Illustration_Pack.svg" alt="" />
+    <div class="bg-image">
+      <img src="./src/assets/background-gradient.png" id="bg-gradient" />
+      <img src="./src/assets/SALY-3D_Illustration_Pack2.svg" id="bg-illustration"/>
+    </div>
 
     <div class="container">
       <header>
-        <img src="./src/assets/logo-yousha.svg" alt="logo Yousha">
+        <img src="./src/assets/logo-yousha.svg" alt="logo Yousha" id="logo-yousha">
         <ul id="headerList">
-          <li>Features</li>
-          <li>About us</li>
-          <li>Blog</li>
-          <li><button type="submit">Get Started</button></li>
+          <li><a href="#"> Features</a></li>
+          <li><a href="#"> About us</a></li>
+          <li><a href="#"> Blog</a></li>
+          <li><a href="#"><button type="submit">Get Started</button></a></li>
         </ul>
       </header>
       <section class="eMailSubscribe">
@@ -32,10 +34,14 @@
         <h3>For marketplace sellers looking to grow their business, metaverse offers the best platform.</h3>
         
         <div class="access">
-          <img src="./src/assets/e-mail_icon.png" />
-          <input type="email" name="email" id="eMailSubmite" placeholder="Your email address"/>
+          <div class="eMailSubmite">
+            <img src="./src/assets/e-mail_icon.png" />
+            <input type="email" name="email" id="eMailSubmite" placeholder="Your email address"/>
+          </div>
           <button type="submit">Get early access</button>
         </div>
+        
+        <p>No credit card required, cancel any time</p>
       </section>
     </div>
   </div>

@@ -1,0 +1,89 @@
+.eMailSubscribe {
+  width: 41.7vw;
+  margin-top: 8.56rem;
+}
+
+.eMailSubscribe h1 {
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 110%;
+
+  margin: 0;
+}
+
+.eMailSubscribe h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 160%;
+
+  padding: 2rem 0 2.5rem 0;
+  margin: 0;
+}
+
+.access {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 32.5rem;
+
+  background: var(--white-100);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: .5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+  padding: .5rem .5rem .5rem 1.5rem;
+}
+.eMailSubmite {
+  display: flex;
+  align-items: center;
+  gap: .75rem;
+}
+.eMailSubmite > img {
+  width: 1.5rem;
+  height: 1.5rem;
+  opacity: .6;
+}
+#eMailSubmite:focus {
+  outline: transparent;
+}
+
+#eMailSubmite {
+  width: 15rem;
+  height: 1.56rem;
+  font-size: 1.12rem;
+  font-weight: 400;
+  line-height: 1.53rem;
+
+  opacity: .6;
+  border-style: none;
+}
+.access button {
+  background: black;
+  padding: 1rem 2rem;
+  
+  font-size: 1.1rem;
+  font-weight: 800;
+  line-height: 1.56rem;
+
+  color: var(--white-100);
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+.eMailSubscribe p {
+  font-size: .8rem;
+  font-weight: 500;
+  line-height: 1.05rem;
+  opacity: .6;
+}
+
+@media(max-width: 840px) {
+  .eMailSubscribe {
+    width: 100%;
+    color: var(--white-200);
+  }
+  .access {
+    font-size: 75%;
+    width: 100%;
+  }
+}

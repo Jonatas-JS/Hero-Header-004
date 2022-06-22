@@ -3,20 +3,39 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
+#logo-yousha {
+  width: 6.1rem;
+  height: 1.75rem;
+}
+
 #headerList {
   display: flex;
+  align-items: center;
   list-style: none;
 
   font-weight: 600;
   line-height: 1.2rem;
   font-size: 1rem;
 
+  gap: 2.5rem;
+}
+#headerList li a {
+  text-decoration: none;
   color: var(--white-100);
 }
+
 #headerList:last-child button {
+  font-family: 'Manrope', sans-serif;
   font-weight: 800;
+  font-size: 1rem;
   color: black;
   border-style: none;
   background: var(--white-200);
   padding: .75rem 1.5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+#headerList:last-child button:hover {
+  background: var(--white-100);
 }
