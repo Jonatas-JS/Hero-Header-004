@@ -39,3 +39,17 @@ header {
 #headerList:last-child button:hover {
   background: var(--white-100);
 }
+
+@media(max-width: 840px) {
+  #logo-yousha {
+    width: 20%;
+  }
+  #headerList {
+    padding: 0;
+    gap: 1.5rem;
+  }
+  #headerList:last-child button {
+    font-size: .6rem;
+    padding: .5rem .75rem;
+  }
+}
