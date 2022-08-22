@@ -1,6 +1,8 @@
 .eMailSubscribe {
+  display: grid;
+  align-items: center;
   width: 41.7vw;
-  margin-top: 8.56rem;
+  margin-top: 8vh;
 }
 
 .eMailSubscribe h1 {
