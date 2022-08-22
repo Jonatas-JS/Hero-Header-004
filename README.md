@@ -1,6 +1,6 @@
-## Lading page - Yousha
+## Landing Page - Yousha
 
-* Esse é uma landing page de um projeto do Figma com o intúito de apresentar o metaverso por meio de uma inscrição do e-mail.
+* Esse é uma landing page de um projeto do Figma com o intuito de apresentar o metaverso por meio de uma inscrição do e-mail.
 * Link do projeto no Figma: https://www.figma.com/file/HplFdHCpvAexJmVOsNPpRU/Hero-Header-004---VR%2FVirtual-Reality-Startup-(Community)
 * Tecnologias utilizadas:
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
